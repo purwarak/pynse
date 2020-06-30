@@ -2,8 +2,13 @@
 Library to extract realtime and historical data from NSE website
 
 
->>> from pynse import *
+```
+from pynse import *
+```
 
->>> nse=Nse()
-
->>> nse.info('SBIN')
+```
+nse=Nse()
+```
+```
+nse.info('SBIN')
+```
