@@ -8,5 +8,6 @@ setup(
     license='',
     author='Anoop Jangra',
     author_email='anoopjangra@gmail.com',
-    description='Library to extract realtime and historical data from NSE website'
-)
+    description='Library to extract realtime and historical data from NSE website',
+    install_requires=['requests', 'fake-headers', 'bs4', 'pandas','beautifulsoup4']
+    )
