@@ -1,10 +1,18 @@
 # pynse
 
-Library to extract realtime and historical data from NSE website.EOD data like bhavcopy and option chain are also saved to directory. First run will create directories for storing the data and will download the index symbols. 
+Library to extract realtime and historical data from NSE website.EOD data like bhavcopy and option chain are also saved to directory. First run will create directories for storing the data and will download the index symbols.
+
+## Installation
+
+This module is installed via pip:
+
+```
+pip install pynse
+```
 
 ### Prerequisites
 
-Python 3.x
+Python 3.6
 
 
 ## Using the API
@@ -143,3 +151,10 @@ Update list of symbols.No need to run frequently, its only required when constit
 ```python
 nse.update_symbol_list()
 ```
+
+## License
+
+© 2020 Anoop Jangra
+
+This repository i slicensed under MIT license.
+See LICENSE for details.
