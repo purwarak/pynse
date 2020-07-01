@@ -156,5 +156,5 @@ nse.update_symbol_list()
 
 © 2020 Anoop Jangra
 
-This repository i slicensed under MIT license.
+This repository is licensed under MIT license.
 See LICENSE for details.
