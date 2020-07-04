@@ -32,7 +32,7 @@ logging.basicConfig(level=logging.DEBUG)
 from pynse import *
 
 # path where data will be stored
-datapath='C:/Users/goldFisher/pynse'
+datapath='C:/Users/goldFisher/pynse/'
 
 nse=Nse(path=datapath)
 ```
