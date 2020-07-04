@@ -30,15 +30,13 @@ logging.basicConfig(level=logging.DEBUG)
 
 ```python
 from pynse import *
-nse=Nse()
-```
 
-set data root folder after initiliazing
-make sure to keep the same folder everytime.
-otherwise it will keep on creating new data folders each time
-```python
-nse.data_root['data_root']='C:/Users/goldFisher/'
+# path where data will be stored
+datapath='C:/Users/goldFisher/pynse'
+
+nse=Nse(path=datapath)
 ```
+make sure datapath is absolute otherwise it will create data folders in every run
 
 ### Get Market Status
 
