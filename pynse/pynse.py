@@ -101,13 +101,13 @@ class Nse:
 
     """
 
-    def __init__(self):
+    def __init__(self,path:str='data/'):
         self.expiry_list = list()
         self.strike_list = list()
         self.max_retries = 5
         self.timeout = 10
         self.__urls, self.__wrls = dict(), list()
-        self.data_root = {'data_root': 'data/'}
+        self.data_root = {'data_root': path}
         self.data_root.update({d: f'{self.data_root["data_root"]}{d}/' for d in
                                ['bhavcopy_eq', 'bhavcopy_fno', 'option_chain', 'symbol_list', 'pre_open', 'hist',
                                 'fii_dii', 'config']})
